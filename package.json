@@ -1,0 +1,22 @@
+{
+  "name": "digit-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "brain-draw-image.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "draw": "node brain-draw-image",
+    "recog": "node brain-recognition-image"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "brain.js": "^2.0.0-beta.15",
+    "get-pixels": "^3.3.3",
+    "gpu.js": "^2.15.2",
+    "jimp": "^0.16.1",
+    "mnist": "^1.1.0",
+    "synaptic": "^1.1.4"
+  }
+}
